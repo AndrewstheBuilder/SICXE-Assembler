@@ -1,0 +1,14 @@
+# 
+#
+#clock.sic
+#
+#
+
+CHECK    WORD    8388608    # leftmost/msb of a word, 0x800000
+HOURS    WORD    3600    # hours in seconds, 60 seconds * 60 minutes
+MINS    WORD    60    # minutes in seconds
+TWELVE    WORD    12
+TEN    WORD    10
+BUFFER    RESW    1    # Free word used for calculations
+BUFTWO    RESW    1
+DEVICE    WORD    64    # LCD screen device number
